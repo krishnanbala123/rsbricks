@@ -1,0 +1,8 @@
+<!-- File: perfect-shape.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-labelledby="title2">
+  <title id="title2">Perfect Shape &amp; Size</title>
+  <rect x="2.5" y="6.5" width="19" height="11" rx="1.2"></rect>
+  <path d="M4.5 9.5h2M8.5 9.5h2M12.5 9.5h2M16.5 9.5h2"></path>
+  <path d="M3 18.5h18" stroke-linecap="butt"></path>
+  <path d="M3 6.5l3-2M18 6.5l3-2" stroke-linecap="round"></path>
+</svg>

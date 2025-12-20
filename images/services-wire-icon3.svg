@@ -1,0 +1,8 @@
+<!-- File: reduced-plaster.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-labelledby="title3">
+  <title id="title3">Reduced Plaster Requirement</title>
+  <path d="M3 17c3-3 8-8 13-13l4 4c-5 5-10 10-13 13-1 .8-2.5.5-3.5-.5-.9-1-1.2-2.5-.5-3.5z"></path>
+  <path d="M14 5l5 5"></path>
+  <path d="M8 18l4-4"></path>
+  <path d="M7 19l-2 2"></path>
+</svg>

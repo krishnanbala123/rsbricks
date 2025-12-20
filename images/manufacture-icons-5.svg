@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64" fill="none">
+  <!-- House -->
+  <path d="M8 30l24-18 24 18" stroke="#9ca3af" stroke-width="2"></path>
+  <rect x="14" y="30" width="20" height="22" stroke="#9ca3af" stroke-width="2"></rect>
+  <!-- Building -->
+  <rect x="38" y="26" width="16" height="26" stroke="#9ca3af" stroke-width="2"></rect>
+</svg>
