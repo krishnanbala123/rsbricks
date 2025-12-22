@@ -3,9 +3,6 @@
     height: 100px; /* desktop */
     width: auto; 
 }
-.navbar{
-    
-}
 @media(max-width:1024px){
     .navbar-brand img{
         height: 70px;

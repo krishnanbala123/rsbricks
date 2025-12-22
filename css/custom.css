@@ -287,9 +287,9 @@ body{
 
 .loading-container,
 .loading{
-	height: 100px;
+	height: 200px;
 	position: relative;
-	width: 100px;
+	width: 200px;
 	border-radius: 100%;
 }
 
@@ -313,10 +313,9 @@ body{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	max-width: 66px;
+	width: 150px;
 	transform: translate(-50%, -50%);
 }
-
 @keyframes rotate-loading{
 	0%{
 		transform: rotate(0deg);
