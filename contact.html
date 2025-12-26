@@ -411,6 +411,38 @@
         document.getElementById("current-year").textContent = new Date().getFullYear();
     </script>
 
+    <script>
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault(); 
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const message = document.getElementById("message").value;
+
+    const text =
+      `New Enquiry from R.S Bricks Website%0A` +
+      `Name: ${name}%0A` +
+      `Email: ${email}%0A` +
+      `Phone: ${phone}%0A` +
+      `Message: ${message}`;
+
+    const whatsappNumber = "919345278858"; 
+
+    window.open(
+      `https://wa.me/${whatsappNumber}?text=${text}`,
+      "_blank"
+    );
+
+    document.getElementById("msgSubmit").classList.remove("hidden");
+    document.getElementById("msgSubmit").innerText =
+      "✅ Thank you! Your enquiry has been sent successfully.";
+
+    this.reset();
+  });
+</script>
+
+
     <!-- Jquery Library File -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
