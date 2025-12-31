@@ -235,7 +235,8 @@
                             <!-- Contact Info Content Start -->
                             <div class="contact-info-content">
                                 <h3>phone number</h3>
-                                <a href="tel:+919345278858">+91 9345278858</a>
+                                <p><a href="tel:+916374247573">+91 6374247573</a></p>
+                                <p><a href="tel:+919345278858">+91 9345278858</a></p>
                                 <!-- <p>+91 9952244792</p>                                -->
                             </div>
                             <!-- Contact Info Content End -->
@@ -301,13 +302,13 @@
             <div class="footer-social-links">
               <ul>
                 <li>
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/share/15wxsgeWN5/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                 <a href="https://www.youtube.com/@NellaiRSBricks" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/___black___boy___bala?igsh=MTM4aHNkcmtwbHZnYQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 </li>
               </ul>
             </div>
@@ -411,7 +412,7 @@
         document.getElementById("current-year").textContent = new Date().getFullYear();
     </script>
 
-    <script>
+    <!-- <script>
   document.getElementById("contactForm").addEventListener("submit", function (e) {
     e.preventDefault(); 
 
@@ -436,11 +437,43 @@
 
     document.getElementById("msgSubmit").classList.remove("hidden");
     document.getElementById("msgSubmit").innerText =
-      "✅ Thank you! Your enquiry has been sent successfully.";
+      "✅ Thank you! Your enquiry has been received.Our R.S Bricks team will get in touch with you soon.📍 Quality Bricks | Reliable Supply";
+
+    this.reset();
+  });
+</script> -->
+     
+
+   <script>
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const message = document.getElementById("message").value;
+
+    const text =
+      `New Enquiry from R.S Bricks Website%0A` +
+      `Name: ${name}%0A` +
+      `Email: ${email}%0A` +
+      `Phone: ${phone}%0A` +
+      `Message: ${message}`;
+
+    const whatsappNumber = "919345278858";
+    window.open(`https://wa.me/${whatsappNumber}?text=${text}`, "_blank");
+
+    // ✅ POPUP MESSAGE
+    alert(
+      "✅ Thank you! Your enquiry has been received.\n\n" +
+      "Our R.S Bricks team will get in touch with you soon.\n\n" +
+      "📍 Quality Bricks | Reliable Supply"
+    );
 
     this.reset();
   });
 </script>
+
 
 
     <!-- Jquery Library File -->
